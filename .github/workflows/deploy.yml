@@ -5,7 +5,7 @@ on:
       - main
       - dev
 env:
-  MONGODB_DB_NAME: events
+  MONGODB_DB_NAME: ${{ secrets.MONGODB_DB_NAME }}
   PORT: 8080
 jobs:
   test:
