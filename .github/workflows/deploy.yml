@@ -4,8 +4,14 @@ on:
     branches:
       - main
       - dev
+env:
+  MONGODB_DB_NAME: events
 jobs:
   test:
+    env:
+      MONGODB_DB_CLUSTER_ADDRESS: ${{ secrets.MONGODB_DB_CLUSTER_ADDRESS }}
+      MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
+      MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
     environment: testing
     runs-on: ubuntu-latest
     steps:
