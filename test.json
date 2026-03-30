@@ -4,17 +4,17 @@
   "numFailedTestSuites": 1,
   "numPendingTestSuites": 0,
   "numTotalTests": 2,
-  "numPassedTests": 1,
-  "numFailedTests": 1,
+  "numPassedTests": 2,
+  "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1774880229980,
+  "startTime": 1774882324466,
   "success": false,
   "testResults": [
     {
       "assertionResults": [],
-      "startTime": 1774880229980,
-      "endTime": 1774880229980,
+      "startTime": 1774882324466,
+      "endTime": 1774882324466,
       "status": "passed",
       "message": "[vite-node] Failed to load @playwright/test",
       "name": "C:/Users/ni_mo/Documents/workspace/github-actions-env-vars/tests/events-api.spec.js"
@@ -29,7 +29,7 @@
           "fullName": " MainContent should render a button",
           "status": "passed",
           "title": "should render a button",
-          "duration": 56,
+          "duration": 47,
           "failureMessages": []
         },
         {
@@ -38,21 +38,15 @@
             "MainContent"
           ],
           "fullName": " MainContent should show the help area after clicking the button",
-          "status": "failed",
+          "status": "passed",
           "title": "should show the help area after clicking the button",
-          "duration": 59,
-          "failureMessages": [
-            "Unable to find an element by: [data-testid=\"help-area!\"]\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<main>\u001b[39m\n      \u001b[36m<button>\u001b[39m\n        \u001b[0mHide\u001b[0m\n        \u001b[0m Help\u001b[0m\n      \u001b[36m</button>\u001b[39m\n      \u001b[36m<section\u001b[39m\n        \u001b[33mdata-testid\u001b[39m=\u001b[32m\"help-area\"\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"help-area\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<article\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"help-box\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<h2>\u001b[39m\n            \u001b[0mWhat is Git?\u001b[0m\n          \u001b[36m</h2>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mGit is a version control system, helping you to manage your code and create code snapshots.\u001b[0m\n          \u001b[36m</p>\u001b[39m\n        \u001b[36m</article>\u001b[39m\n        \u001b[36m<article\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"help-box\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<h2>\u001b[39m\n            \u001b[0mWhat is GitHub?\u001b[0m\n          \u001b[36m</h2>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mGitHub is a company and online offering, providing you with tons of Git-related services (e.g., cloud repositories).\u001b[0m\n          \u001b[36m</p>\u001b[39m\n        \u001b[36m</article>\u001b[39m\n        \u001b[36m<article\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"help-box\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<h2>\u001b[39m\n            \u001b[0mWhat is GitHub Actions?\u001b[0m\n          \u001b[36m</h2>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mGitHub Actions is an automation service (or CI / CD service) that helps you automate repository-related workflows and processes.\u001b[0m\n          \u001b[36m</p>\u001b[39m\n        \u001b[36m</article>\u001b[39m\n      \u001b[36m</section>\u001b[39m\n    \u001b[36m</main>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
-          ],
-          "location": {
-            "line": 29,
-            "column": 41
-          }
+          "duration": 52,
+          "failureMessages": []
         }
       ],
-      "startTime": 1774880256573,
-      "endTime": 1774880256688,
-      "status": "failed",
+      "startTime": 1774882326860,
+      "endTime": 1774882326959,
+      "status": "passed",
       "message": "",
       "name": "C:/Users/ni_mo/Documents/workspace/github-actions-env-vars/src/components/MainContent.test.jsx"
     }
