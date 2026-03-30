@@ -1,24 +1,16 @@
 {
-  "numTotalTestSuites": 3,
+  "numTotalTestSuites": 2,
   "numPassedTestSuites": 2,
-  "numFailedTestSuites": 1,
+  "numFailedTestSuites": 0,
   "numPendingTestSuites": 0,
   "numTotalTests": 2,
   "numPassedTests": 2,
   "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1774882324466,
-  "success": false,
+  "startTime": 1774883308717,
+  "success": true,
   "testResults": [
-    {
-      "assertionResults": [],
-      "startTime": 1774882324466,
-      "endTime": 1774882324466,
-      "status": "passed",
-      "message": "[vite-node] Failed to load @playwright/test",
-      "name": "C:/Users/ni_mo/Documents/workspace/github-actions-env-vars/tests/events-api.spec.js"
-    },
     {
       "assertionResults": [
         {
@@ -29,7 +21,7 @@
           "fullName": " MainContent should render a button",
           "status": "passed",
           "title": "should render a button",
-          "duration": 47,
+          "duration": 57,
           "failureMessages": []
         },
         {
@@ -40,12 +32,12 @@
           "fullName": " MainContent should show the help area after clicking the button",
           "status": "passed",
           "title": "should show the help area after clicking the button",
-          "duration": 52,
+          "duration": 48,
           "failureMessages": []
         }
       ],
-      "startTime": 1774882326860,
-      "endTime": 1774882326959,
+      "startTime": 1774883310897,
+      "endTime": 1774883311002,
       "status": "passed",
       "message": "",
       "name": "C:/Users/ni_mo/Documents/workspace/github-actions-env-vars/src/components/MainContent.test.jsx"

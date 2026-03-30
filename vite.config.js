@@ -8,7 +8,9 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: './src/test/setup.js',
-    reporters: ['json'],
-    outputFile: 'test.json'
+    reporters: ['default', 'json'],
+    outputFile: 'test.json',
+    include: ['src/**/*.{test,spec}.{js,jsx,ts,tsx}'],
+    exclude: ['tests/**/*', 'e2e/**/*'],
   },
 });
